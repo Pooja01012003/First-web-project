@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+    .container{
+    height: 100vh;
+    border : 20px solid black;
+    display : flex;
+    flex-flow:row wrap;
+    align-content: center;
+    background-color: rgb(247, 81, 108);
+}
+
+    
+
+    
+  
+  .item-1 {
+    height: 200px;
+    background: rgb(19, 42, 117);
+    order: 1;
+    flex: 1 1 300px;
+  }
+  .item-2 {
+    height: 200px;
+    background: rgb(221, 53, 53);
+    order: 2;
+    flex: 1 1 300px;
+  }
+  .item-3 {
+    height: 200px;
+    background: rgb(224, 60, 211);
+    order: 3;
+    flex: 1 1 300px;
+  }
+  .item-4 {
+    height: 200px;
+    background: rgb(64, 172, 64);
+    order: 4;
+    flex: 1 1 300px;
+  }
+  h1 {
+    color: white;
+    font-family: sans-serif;
+
+    
+  }
